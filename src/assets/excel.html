@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel cource</title>
+</head>
+<body>
+    <div id='app' class='container'>
+
+        <div class="excel">
+
+            <div class="excel__header">
+                <input type="text" class="input" value="Новая таблица"/>
+                
+                <div>
+                    <button class="button">Удалить лист</button>
+                    <button class="button">Выйти</button>
+                </div>
+            </div>
+
+            <div class="excel__toolbar">
+                <button class="button"><b>B</b></button>
+                <button class="button"><i>I</i></button>
+                <button class="button">U</button>
+                <button class="button">L</button>
+                <button class="button">C</button>
+                <button class="button">R</button>
+            </div>
+
+            <div class="excel__formula">
+                <div class="info">fx</div>
+                <div class="input" contenteditable="true" spellcheck="false"></div>
+            </div>
+
+            <div class="excel__table">
+                <div class="row">
+                    <div class="row-info">
+
+                    </div>
+                    <div class="row-data">
+                        <div class="column">
+                            A
+                        </div>
+                        <div class="column">
+                            B
+                        </div>
+                        <div class="column">
+                            C
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="row-info">
+                        1
+                    </div>
+                    <div class="row-data">
+                        <div class="cell selected" contenteditable="true">0</div>
+                        <div class="cell" contenteditable="true">1</div>
+                        <div class="cell" contenteditable="true">2</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
